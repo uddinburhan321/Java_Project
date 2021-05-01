@@ -14,9 +14,9 @@ public class LoopPractice {
 
     public static void main(String[] args) throws IOException {
 
-        //LoopPractice userInput = new LoopPractice();
+        LoopPractice userInput = new LoopPractice();
         //userInput.globalAccess();
-        //userInput.getMark();
+        userInput.getMark();
 
 
 
@@ -43,11 +43,11 @@ public class LoopPractice {
     }*/
 
 
-    /*public String getMark() {
+    public String getMark() {
 
         String score;
         int mark = 0;
-        String name = "meron";
+        String name = "mazbah";
 
         if (name == "Burhan") {
             score = String.valueOf(mark = 50);
@@ -61,6 +61,6 @@ public class LoopPractice {
         System.out.println(name + " Your mark is " + score);
         return score;
 
-    }*/
+    }
 
 }
